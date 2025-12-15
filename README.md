@@ -7,4 +7,5 @@
 - Implementation in PyTorch
 
 ## Setting Up:
-- We provided environment.yml for setting up PONY. However, for constructing the benchmark sets, other packages are required. For this, consult the provided JuPyter Notebooks.
+- Python: 3.10.18
+- We provided environment.yml for setting up PONY. However, for constructing the benchmark sets, other packages are required. For this, consult the provided Jupyter Notebooks.
