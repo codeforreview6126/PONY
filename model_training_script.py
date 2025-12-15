@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from torch.optim.lr_scheduler import StepLR
 from tqdm import tqdm
-from models.pointnet2_v2 import get_model, get_loss
+from models.pointnet2_v2_film_clipped import get_model, get_loss
 from training_util.training_util_publication import MOFDataset, train_one_epoch, evaluate
 from data_util.pre_processing_v2 import train_val_test_split, find_scaling_coefficients, prepare_data, upsample_collate
 from data_util.calculate_stats import compute_r2, compute_mae, compute_rmse
